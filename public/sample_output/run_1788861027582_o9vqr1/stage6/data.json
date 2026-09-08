@@ -1,0 +1,290 @@
+{
+  "isPlaying": false,
+  "currentTime": 7.3629999999999995,
+  "volume": 1,
+  "isExporting": false,
+  "exportProgress": 0,
+  "captionStyle": "Bold Pop-up",
+  "showMotionGraphics": true,
+  "playbackSpeed": 1,
+  "sceneVideos": {
+    "scene-1": {
+      "sceneId": "scene-1",
+      "prompt": "Use the generated Stage 5 scene image as the primary visual reference and starting image. Preserve the main subject, environment, composition, colors, lighting, and visual style from the image. Animate Captain Chloroplast catching incoming yellow solar rays. Animate green sparkle particles reflecting off his armor. Camera movement: Slow medium push-in toward Captain Chloroplast. Environmental movement: Gentle floating cellular organelles in the background. Keep the scene visually consistent with the reference image. Do not introduce unrelated objects or change the identity of the main subject. The resulting video should visually explain: How chlorophyll absorbs solar energy while reflecting green light.",
+      "videoUrl": "/sample-assets/stage6/scene%201%20vid.mp4",
+      "isGenerating": false,
+      "modelUsed": "demo"
+    },
+    "scene-2": {
+      "sceneId": "scene-2",
+      "prompt": "Use the generated Stage 5 scene image as the primary visual reference and starting image. Preserve the main subject, environment, composition, colors, lighting, and visual style from the image. Animate the water bubble bursting apart into glowing H+ ions. Animate oxygen bubbles floating upward. Camera movement: Dynamic close-up zoom on the molecular splitting action. Environmental movement: Sparking electrical energy flowing along the thylakoid membrane surface. Keep the scene visually consistent with the reference image. Do not introduce unrelated objects or change the identity of the main subject. The resulting video should visually explain: Light-dependent photolysis splitting H2O into hydrogen and oxygen.",
+      "videoUrl": "/sample-assets/stage6/scene%202%20vid.mp4",
+      "isGenerating": false,
+      "modelUsed": "demo"
+    },
+    "scene-3": {
+      "sceneId": "scene-3",
+      "prompt": "Use the generated Stage 5 scene image as the primary visual reference and starting image. Preserve the main subject, environment, composition, colors, lighting, and visual style from the image. Animate battery charge levels rising to maximum with glowing illumination. Animate electric sparks bursting and flowing into ATP and NADPH. Camera movement: Subtle camera jitter and steady pull-back to show both characters. Environmental movement: Swirling energy particles filling the cellular background. Keep the scene visually consistent with the reference image. Do not introduce unrelated objects or change the identity of the main subject. The resulting video should visually explain: How solar energy charges ADP and NADP+ into high-energy ATP and NADPH.",
+      "videoUrl": "/sample-assets/stage6/scene%203%20vid.mp4",
+      "isGenerating": false,
+      "modelUsed": "demo"
+    },
+    "scene-4": {
+      "sceneId": "scene-4",
+      "prompt": "Use the generated Stage 5 scene image as the primary visual reference and starting image. Preserve the main subject, environment, composition, colors, lighting, and visual style from the image. Animate the circular Calvin Cycle wheel turning steadily clockwise. Animate CO2 molecules entering the wheel and golden glucose blocks emerging at the end. Camera movement: Smooth panning motion following the cycle pathway from input to output. Environmental movement: Swirling fluid stroma motion and energy glowing from ATP connections. Keep the scene visually consistent with the reference image. Do not introduce unrelated objects or change the identity of the main subject. The resulting video should visually explain: The Calvin Cycle synthesizing glucose from CO2 using ATP and NADPH power.",
+      "videoUrl": "/sample-assets/stage6/scene%204%20vid.mp4",
+      "isGenerating": false,
+      "modelUsed": "demo"
+    },
+    "scene-5": {
+      "sceneId": "scene-5",
+      "prompt": "Use the generated Stage 5 scene image as the primary visual reference and starting image. Preserve the main subject, environment, composition, colors, lighting, and visual style from the image. Animate glowing oxygen bubbles floating gently up from the tree leaves into the sky. Animate sunbeams shimmering through the leaf canopy. Camera movement: Rapid epic zoom out and slight orbital rotation revealing the full ecosystem. Environmental movement: Swaying tree branches and animals moving cheerfully around the base. Keep the scene visually consistent with the reference image. Do not introduce unrelated objects or change the identity of the main subject. The resulting video should visually explain: How photosynthesis fuels plant growth and produces oxygen for global life.",
+      "videoUrl": "/sample-assets/stage6/scene%205%20vid.mp4",
+      "isGenerating": false,
+      "modelUsed": "demo"
+    }
+  },
+  "composition": {
+    "version": 1,
+    "aspectRatio": "16:9",
+    "scenes": [
+      {
+        "id": "timeline-scene-1",
+        "sceneId": "scene-1",
+        "sceneNumber": 1,
+        "title": "Meet Captain Chloroplast",
+        "durationSec": 9.72,
+        "trimStartSec": 0,
+        "trimEndSec": 0,
+        "sourceDurationSec": 10.005,
+        "mediaType": "video",
+        "videoUrl": "/sample-assets/stage6/scene%201%20vid.mp4",
+        "imageUrl": "/sample-assets/stage5/scene%201%20img.jpg",
+        "narration": {
+          "id": "narration-scene-1",
+          "sceneId": "scene-1",
+          "sourceUrl": "/sample-assets/stage4/asset_voiceoverAssets_scene-1_audioDataUrl.mp3",
+          "text": "Welcome to Tree City! Deep inside every leaf, Captain Chloroplast absorbs glowing solar energy while reflecting vibrant green light.",
+          "startOffsetSec": 0,
+          "trimStartSec": 0,
+          "trimEndSec": 0,
+          "sourceDurationSec": 9.68
+        },
+        "subtitle": {
+          "id": "subtitle-scene-1-1",
+          "sceneId": "scene-1",
+          "text": "Welcome to Tree City!",
+          "startOffsetSec": 0,
+          "endOffsetSec": 9.68
+        },
+        "subtitles": [
+          {
+            "id": "subtitle-scene-1-1",
+            "sceneId": "scene-1",
+            "text": "Welcome to Tree City!",
+            "startOffsetSec": 0,
+            "endOffsetSec": 2.05
+          },
+          {
+            "id": "subtitle-scene-1-2",
+            "sceneId": "scene-1",
+            "text": "Deep inside every leaf, Captain Chloroplast absorbs glowing solar energy while reflecting vibrant green light.",
+            "startOffsetSec": 2.05,
+            "endOffsetSec": 9.72
+          }
+        ]
+      },
+      {
+        "id": "timeline-scene-2",
+        "sceneId": "scene-2",
+        "sceneNumber": 2,
+        "title": "The Water-Splitting Zap",
+        "durationSec": 10.61,
+        "trimStartSec": 0,
+        "trimEndSec": 0,
+        "sourceDurationSec": 10.005,
+        "mediaType": "video",
+        "videoUrl": "/sample-assets/stage6/scene%202%20vid.mp4",
+        "imageUrl": "/sample-assets/stage5/scene%202%20img.jpg",
+        "narration": {
+          "id": "narration-scene-2",
+          "sceneId": "scene-2",
+          "sourceUrl": "/sample-assets/stage4/asset_voiceoverAssets_scene-2_audioDataUrl.mp3",
+          "text": "To harness this solar energy, our hero leaps onto thylakoid pads and zaps water molecules, splitting H2O into charged hydrogen and oxygen gas!",
+          "startOffsetSec": 0,
+          "trimStartSec": 0,
+          "trimEndSec": 0,
+          "sourceDurationSec": 10.56
+        },
+        "subtitle": {
+          "id": "subtitle-scene-2-1",
+          "sceneId": "scene-2",
+          "text": "To harness this solar energy, our hero leaps",
+          "startOffsetSec": 0,
+          "endOffsetSec": 10.56
+        },
+        "subtitles": [
+          {
+            "id": "subtitle-scene-2-1",
+            "sceneId": "scene-2",
+            "text": "To harness this solar energy, our hero leaps",
+            "startOffsetSec": 0,
+            "endOffsetSec": 3.69
+          },
+          {
+            "id": "subtitle-scene-2-2",
+            "sceneId": "scene-2",
+            "text": "onto thylakoid pads and zaps water molecules,",
+            "startOffsetSec": 3.69,
+            "endOffsetSec": 6.92
+          },
+          {
+            "id": "subtitle-scene-2-3",
+            "sceneId": "scene-2",
+            "text": "splitting H2O into charged hydrogen and oxygen gas!",
+            "startOffsetSec": 6.92,
+            "endOffsetSec": 10.61
+          }
+        ]
+      },
+      {
+        "id": "timeline-scene-3",
+        "sceneId": "scene-3",
+        "sceneNumber": 3,
+        "title": "Supercharging the Batteries",
+        "durationSec": 7.39,
+        "trimStartSec": 0,
+        "trimEndSec": 0,
+        "sourceDurationSec": 10.005,
+        "mediaType": "video",
+        "videoUrl": "/sample-assets/stage6/scene%203%20vid.mp4",
+        "imageUrl": "/sample-assets/stage5/scene%203%20img.jpg",
+        "narration": {
+          "id": "narration-scene-3",
+          "sceneId": "scene-3",
+          "sourceUrl": "/sample-assets/stage4/asset_voiceoverAssets_scene-3_audioDataUrl.mp3",
+          "text": "All that solar energy charges up our leaf city's high-energy battery crew: ATP and NADPH!",
+          "startOffsetSec": 0,
+          "trimStartSec": 0,
+          "trimEndSec": 0,
+          "sourceDurationSec": 7.36
+        },
+        "subtitle": {
+          "id": "subtitle-scene-3-1",
+          "sceneId": "scene-3",
+          "text": "All that solar energy charges up our leaf",
+          "startOffsetSec": 0,
+          "endOffsetSec": 7.36
+        },
+        "subtitles": [
+          {
+            "id": "subtitle-scene-3-1",
+            "sceneId": "scene-3",
+            "text": "All that solar energy charges up our leaf",
+            "startOffsetSec": 0,
+            "endOffsetSec": 3.94
+          },
+          {
+            "id": "subtitle-scene-3-2",
+            "sceneId": "scene-3",
+            "text": "city's high-energy battery crew: ATP and NADPH!",
+            "startOffsetSec": 3.94,
+            "endOffsetSec": 7.39
+          }
+        ]
+      },
+      {
+        "id": "timeline-scene-4",
+        "sceneId": "scene-4",
+        "sceneNumber": 4,
+        "title": "The Calvin Sugar Factory",
+        "durationSec": 10.11,
+        "trimStartSec": 0,
+        "trimEndSec": 0,
+        "sourceDurationSec": 10.005,
+        "mediaType": "video",
+        "videoUrl": "/sample-assets/stage6/scene%204%20vid.mp4",
+        "imageUrl": "/sample-assets/stage5/scene%204%20img.jpg",
+        "narration": {
+          "id": "narration-scene-4",
+          "sceneId": "scene-4",
+          "sourceUrl": "/sample-assets/stage4/asset_voiceoverAssets_scene-4_audioDataUrl.mp3",
+          "text": "Over in the fluid stroma, the Calvin Cycle wheel turns! Carbon dioxide enters, battery power activates, and sweet glucose sugar is forged!",
+          "startOffsetSec": 0,
+          "trimStartSec": 0,
+          "trimEndSec": 0,
+          "sourceDurationSec": 10.08
+        },
+        "subtitle": {
+          "id": "subtitle-scene-4-1",
+          "sceneId": "scene-4",
+          "text": "Over in the fluid stroma, the Calvin Cycle wheel turns!",
+          "startOffsetSec": 0,
+          "endOffsetSec": 10.08
+        },
+        "subtitles": [
+          {
+            "id": "subtitle-scene-4-1",
+            "sceneId": "scene-4",
+            "text": "Over in the fluid stroma, the Calvin Cycle wheel turns!",
+            "startOffsetSec": 0,
+            "endOffsetSec": 4.6
+          },
+          {
+            "id": "subtitle-scene-4-2",
+            "sceneId": "scene-4",
+            "text": "Carbon dioxide enters, battery power activates, and sweet glucose sugar is forged!",
+            "startOffsetSec": 4.6,
+            "endOffsetSec": 10.11
+          }
+        ]
+      },
+      {
+        "id": "timeline-scene-5",
+        "sceneId": "scene-5",
+        "sceneNumber": 5,
+        "title": "Powering the World",
+        "durationSec": 8.67,
+        "trimStartSec": 0,
+        "trimEndSec": 0,
+        "sourceDurationSec": 8,
+        "mediaType": "video",
+        "videoUrl": "/sample-assets/stage6/scene%205%20vid.mp4",
+        "imageUrl": "/sample-assets/stage5/scene%205%20img.jpg",
+        "narration": {
+          "id": "narration-scene-5",
+          "sceneId": "scene-5",
+          "sourceUrl": "/sample-assets/stage4/asset_voiceoverAssets_scene-5_audioDataUrl.mp3",
+          "text": "Glucose fuels the giant tree metropolis, while fresh oxygen keeps all life breathing. Photosynthesis powers our whole planet!",
+          "startOffsetSec": 0,
+          "trimStartSec": 0,
+          "trimEndSec": 0,
+          "sourceDurationSec": 8.64
+        },
+        "subtitle": {
+          "id": "subtitle-scene-5-1",
+          "sceneId": "scene-5",
+          "text": "Glucose fuels the giant tree metropolis, while fresh oxygen keeps all life breathing.",
+          "startOffsetSec": 0,
+          "endOffsetSec": 8.64
+        },
+        "subtitles": [
+          {
+            "id": "subtitle-scene-5-1",
+            "sceneId": "scene-5",
+            "text": "Glucose fuels the giant tree metropolis, while fresh oxygen keeps all life breathing.",
+            "startOffsetSec": 0,
+            "endOffsetSec": 6.26
+          },
+          {
+            "id": "subtitle-scene-5-2",
+            "sceneId": "scene-5",
+            "text": "Photosynthesis powers our whole planet!",
+            "startOffsetSec": 6.26,
+            "endOffsetSec": 8.67
+          }
+        ]
+      }
+    ]
+  }
+}

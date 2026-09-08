@@ -1,0 +1,76 @@
+{
+  "selectedModel": "gemini-3.6-flash",
+  "scenes": [
+    {
+      "id": "scene-1",
+      "sceneNumber": 1,
+      "durationSec": 12,
+      "sceneTitle": "Meet Captain Chloroplast",
+      "visualDescription": "Inside a vibrant microscopic leaf cell city, Captain Chloroplast in glowing green solar armor absorbs yellow sunlight rays while bouncing off green light sparkles.",
+      "dialogueNarrative": "Welcome to Tree City! Deep inside every leaf, Captain Chloroplast absorbs glowing solar energy while reflecting vibrant green light.",
+      "cameraAngle": "Medium Push-in",
+      "lightingMood": "Bright, energetic, warm sunlight bathed in micro-city glow",
+      "bgMusicPrompt": "Upbeat orchestral synth hybrid with playful heroic brass",
+      "motionGraphicType": "Animated Text Callout",
+      "imagePrompt": "Educational scene about Chloroplast and Chlorophyll light absorption. Main subject: Heroic green character Captain Chloroplast in solar-panel armor. Action/state: Standing heroically catching glowing yellow sun rays with outstretched hands while green light particles bounce away. Environment: Microscopic bustling leaf city inside a plant cell thylakoid structure. Composition: Centered superhero pose, medium shot, foreground light beams, cellular backdrop. Educational visualization: Glowing arrows showing sunlight absorption and green wavelength reflection vectors. Visual style: 2D Vector / Pixar Hybrid. Clear subject hierarchy, accurate educational representation, high visual clarity, no irrelevant objects.",
+      "videoPrompt": "Use the generated Stage 5 scene image as the primary visual reference and starting image. Preserve the main subject, environment, composition, colors, lighting, and visual style from the image. Animate Captain Chloroplast catching incoming yellow solar rays. Animate green sparkle particles reflecting off his armor. Camera movement: Slow medium push-in toward Captain Chloroplast. Environmental movement: Gentle floating cellular organelles in the background. Keep the scene visually consistent with the reference image. Do not introduce unrelated objects or change the identity of the main subject. The resulting video should visually explain: How chlorophyll absorbs solar energy while reflecting green light."
+    },
+    {
+      "id": "scene-2",
+      "sceneNumber": 2,
+      "durationSec": 12,
+      "sceneTitle": "The Water-Splitting Zap",
+      "visualDescription": "Captain Chloroplast and uses solar energy rays to split a floating H2O water bubble into hydrogen ions and oxygen gas.",
+      "dialogueNarrative": "To harness this solar energy, our hero leaps onto thylakoid pads and zaps water molecules, splitting H2O into charged hydrogen and oxygen gas!",
+      "cameraAngle": "Close-up Focus",
+      "lightingMood": "Electric, vibrant blue and yellow sparking energy",
+      "bgMusicPrompt": "High-energy rhythmic electronic beats with energetic sci-fi synth zaps",
+      "motionGraphicType": "Diagram Reveal",
+      "imagePrompt": "Educational scene about Photolysis of Water in light-dependent reactions. Main subject: Translucent H2O water bubble splitting open under a focused beam of solar light. Action/state: Water molecule separating into two H+ ions and an oxygen atom. Environment: Surface of a glowing green thylakoid membrane inside a chloroplast. Composition: Close-up macro focus on the splitting water molecule at center frame. Educational visualization: Chemical molecular labels H2O, H+, and O2 with energetic electric arrows showing bond breaking. Visual style: 2D Vector / Pixar Hybrid. Clear subject hierarchy, accurate educational representation, high visual clarity, no irrelevant objects.",
+      "videoPrompt": "Use the generated Stage 5 scene image as the primary visual reference and starting image. Preserve the main subject, environment, composition, colors, lighting, and visual style from the image. Animate the water bubble bursting apart into glowing H+ ions. Animate oxygen bubbles floating upward. Camera movement: Dynamic close-up zoom on the molecular splitting action. Environmental movement: Sparking electrical energy flowing along the thylakoid membrane surface. Keep the scene visually consistent with the reference image. Do not introduce unrelated objects or change the identity of the main subject. The resulting video should visually explain: Light-dependent photolysis splitting H2O into hydrogen and oxygen."
+    },
+    {
+      "id": "scene-3",
+      "sceneNumber": 3,
+      "durationSec": 12,
+      "sceneTitle": "Supercharging the Batteries",
+      "visualDescription": "Electric sparks from the water-splitting reaction charge up cheerful battery-shaped characters labeled ATP and NADPH, turning them bright yellow and blue.",
+      "dialogueNarrative": "All that solar energy charges up our leaf city's high-energy battery crew: ATP and NADPH!",
+      "cameraAngle": "Split Screen Comparison",
+      "lightingMood": "Glowing, high-voltage battery charging mood",
+      "bgMusicPrompt": "Energetic arcade style synth chiptune with rising pitch sweeps",
+      "motionGraphicType": "Particle Burst",
+      "imagePrompt": "Educational scene about Energy Storage Molecules ATP and NADPH. Main subject: Two cute battery characters labeled ATP and NADPH fully charged and glowing bright blue and yellow. Action/state: Electric power sparks flowing into the batteries, filling up their energy meters. Environment: Microscopic cellular interior near the thylakoid membrane. Composition: Side-by-side shot featuring ATP on the left and NADPH on the right charging up. Educational visualization: Energy level indicator bars filling up and spark particles flowing from low energy ADP and NADP+ to ATP and NADPH. Visual style: 2D Vector / Pixar Hybrid. Clear subject hierarchy, accurate educational representation, high visual clarity, no irrelevant objects.",
+      "videoPrompt": "Use the generated Stage 5 scene image as the primary visual reference and starting image. Preserve the main subject, environment, composition, colors, lighting, and visual style from the image. Animate battery charge levels rising to maximum with glowing illumination. Animate electric sparks bursting and flowing into ATP and NADPH. Camera movement: Subtle camera jitter and steady pull-back to show both characters. Environmental movement: Swirling energy particles filling the cellular background. Keep the scene visually consistent with the reference image. Do not introduce unrelated objects or change the identity of the main subject. The resulting video should visually explain: How solar energy charges ADP and NADP+ into high-energy ATP and NADPH."
+    },
+    {
+      "id": "scene-4",
+      "sceneNumber": 4,
+      "durationSec": 15,
+      "sceneTitle": "The Calvin Sugar Factory",
+      "visualDescription": "In the fluid stroma plaza, a clockwork Calvin Cycle wheel captures floating CO2 molecules, powered by ATP and NADPH batteries, forging golden glucose bricks.",
+      "dialogueNarrative": "Over in the fluid stroma, the Calvin Cycle wheel turns! Carbon dioxide enters, battery power activates, and sweet glucose sugar is forged!",
+      "cameraAngle": "Wide Shot (Pan)",
+      "lightingMood": "Warm golden factory glow with fluid blue stroma highlights",
+      "bgMusicPrompt": "Rhythmic clockwork mechanical rhythm with warm melodic synthesizer",
+      "motionGraphicType": "3D Object Spin",
+      "imagePrompt": "Educational scene about Calvin Cycle and Glucose Synthesis in the Stroma. Main subject: Futuristic spinning clockwork cycle wheel absorbing CO2 molecules and pressing out golden glucose sugar crystals. Action/state: ATP and NADPH plug into the wheel to power the chemical assembly of glucose. Environment: Fluid stroma plaza inside the chloroplast container. Composition: Wide shot showing the circular clockwork pathway centered with inputs on top and glucose output on bottom. Educational visualization: Flow chart arrows showing CO2 entering, ATP releasing energy, and Glucose C6H12O6 emerging. Visual style: 2D Vector / Pixar Hybrid. Clear subject hierarchy, accurate educational representation, high visual clarity, no irrelevant objects.",
+      "videoPrompt": "Use the generated Stage 5 scene image as the primary visual reference and starting image. Preserve the main subject, environment, composition, colors, lighting, and visual style from the image. Animate the circular Calvin Cycle wheel turning steadily clockwise. Animate CO2 molecules entering the wheel and golden glucose blocks emerging at the end. Camera movement: Smooth panning motion following the cycle pathway from input to output. Environmental movement: Swirling fluid stroma motion and energy glowing from ATP connections. Keep the scene visually consistent with the reference image. Do not introduce unrelated objects or change the identity of the main subject. The resulting video should visually explain: The Calvin Cycle synthesizing glucose from CO2 using ATP and NADPH power."
+    },
+    {
+      "id": "scene-5",
+      "sceneNumber": 5,
+      "durationSec": 9,
+      "sceneTitle": "Powering the World",
+      "visualDescription": "Zooming out from the microscopic chloroplast to reveal a grand 3D tree shining in sunlight, releasing oxygen bubbles that support animated animals below.",
+      "dialogueNarrative": "Glucose fuels the giant tree metropolis, while fresh oxygen keeps all life breathing. Photosynthesis powers our whole planet!",
+      "cameraAngle": "Dynamic 360 Rotation",
+      "lightingMood": "Luminous, inspirational natural sunlight outdoors",
+      "bgMusicPrompt": "Triumphant orchestral climax with uplifting choral pad finish",
+      "motionGraphicType": "Flowchart Connector",
+      "imagePrompt": "Educational scene about Ecosystem Energetic Balance and Global Oxygen Cycle. Main subject: Magnificent lush green tree bathed in brilliant sunlight, emitting oxygen bubbles and sustaining forest wildlife. Action/state: Tree synthesizing nutrients, releasing O2 gas into atmosphere, and supporting surrounding ecosystem. Environment: Vibrant sunny forest landscape under a clear blue sky. Composition: Heroic grand shot with the majestic tree centered, animals in foreground, atmospheric sunbeams above. Educational visualization: Arrows illustrating planetary oxygen and glucose energy distribution flow across the biome. Visual style: 2D Vector / Pixar Hybrid. Clear subject hierarchy, accurate educational representation, high visual clarity, no irrelevant objects.",
+      "videoPrompt": "Use the generated Stage 5 scene image as the primary visual reference and starting image. Preserve the main subject, environment, composition, colors, lighting, and visual style from the image. Animate glowing oxygen bubbles floating gently up from the tree leaves into the sky. Animate sunbeams shimmering through the leaf canopy. Camera movement: Rapid epic zoom out and slight orbital rotation revealing the full ecosystem. Environmental movement: Swaying tree branches and animals moving cheerfully around the base. Keep the scene visually consistent with the reference image. Do not introduce unrelated objects or change the identity of the main subject. The resulting video should visually explain: How photosynthesis fuels plant growth and produces oxygen for global life."
+    }
+  ],
+  "globalMusicGenre": "Upbeat Educational Orchestral Synth Hybrid"
+}

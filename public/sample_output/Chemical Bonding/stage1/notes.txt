@@ -1,0 +1,35 @@
+CHEMICAL BONDING
+
+Overview:
+Chemical bonding is the force that holds atoms together in compounds. Atoms bond to become more stable, usually by gaining, losing, or sharing electrons in their outer energy levels.
+
+Key Components:
+1. Valence Electrons:
+   - Valence electrons are the outermost electrons of an atom.
+   - These electrons are responsible for chemical bonding.
+   - Atoms often bond to achieve a full outer shell.
+
+2. Ionic Bonding:
+   - Ionic bonds form when electrons are transferred from one atom to another.
+   - One atom becomes positively charged, and the other becomes negatively charged.
+   - Opposite charges attract and hold the ions together.
+   - Example: Sodium chloride, NaCl.
+
+3. Covalent Bonding:
+   - Covalent bonds form when atoms share electrons.
+   - This usually happens between nonmetal atoms.
+   - Shared electrons help each atom become more stable.
+   - Example: Water, H2O.
+
+4. Metallic Bonding:
+   - Metallic bonds form between metal atoms.
+   - Electrons move freely in a sea of electrons.
+   - This explains why metals conduct electricity and can be shaped.
+
+5. Bond Properties:
+   - Ionic compounds often have high melting points and conduct electricity when dissolved.
+   - Covalent compounds may have lower melting points and often do not conduct electricity.
+   - Metals are usually shiny, malleable, ductile, and conductive.
+
+Core Takeaway:
+Atoms form chemical bonds by transferring, sharing, or pooling electrons so they can reach a more stable arrangement.

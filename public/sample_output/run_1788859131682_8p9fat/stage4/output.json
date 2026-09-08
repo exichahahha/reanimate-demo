@@ -1,0 +1,47 @@
+{
+  "selectedModel": "elevenlabs-tts",
+  "selectedVoice": "Kore",
+  "voiceoverAssets": {
+    "scene-1": {
+      "sceneId": "scene-1",
+      "voiceName": "Kore",
+      "speed": 1,
+      "pitch": 1,
+      "isGenerating": false,
+      "audioDataUrl": "/sample-assets/stage4/asset_voiceoverAssets_scene-1_audioDataUrl.mp3"
+    },
+    "scene-2": {
+      "sceneId": "scene-2",
+      "voiceName": "Kore",
+      "speed": 1,
+      "pitch": 1,
+      "isGenerating": false,
+      "audioDataUrl": "/sample-assets/stage4/asset_voiceoverAssets_scene-2_audioDataUrl.mp3"
+    },
+    "scene-3": {
+      "sceneId": "scene-3",
+      "voiceName": "Kore",
+      "speed": 1,
+      "pitch": 1,
+      "isGenerating": false,
+      "audioDataUrl": "/sample-assets/stage4/asset_voiceoverAssets_scene-3_audioDataUrl.mp3"
+    },
+    "scene-4": {
+      "sceneId": "scene-4",
+      "voiceName": "Kore",
+      "speed": 1,
+      "pitch": 1,
+      "isGenerating": false,
+      "audioDataUrl": "/sample-assets/stage4/asset_voiceoverAssets_scene-4_audioDataUrl.mp3"
+    },
+    "scene-5": {
+      "sceneId": "scene-5",
+      "voiceName": "Kore",
+      "speed": 1,
+      "pitch": 1,
+      "isGenerating": false,
+      "audioDataUrl": "/sample-assets/stage4/asset_voiceoverAssets_scene-5_audioDataUrl.mp3"
+    }
+  },
+  "bgMusicVolume": 0.3
+}

@@ -1,0 +1,57 @@
+{
+  "selectedModel": "gemini-3.6-flash",
+  "narrativeTone": "Enthusiastic & Friendly",
+  "chapters": [
+    {
+      "id": "chap-1",
+      "chapterNumber": 1,
+      "title": "Meet Captain Chloroplast",
+      "conceptFocus": "Chloroplast & Chlorophyll",
+      "narrativeHook": "Welcome to Tree City! Deep inside every leaf, our tiny superhero Captain Chloroplast catches glowing solar beams while bouncing off vibrant green light!",
+      "visualAnimationCue": "3D Pixar-style camera zoom from a giant leafy canopy down into a bustling microscopic city cell. A heroic green character with solar-panel armor catches yellow light beams while green sparkles reflect away.",
+      "durationPercent": 20,
+      "interactiveElement": "Tap the solar rays to help Captain Chloroplast absorb light!"
+    },
+    {
+      "id": "chap-2",
+      "chapterNumber": 2,
+      "title": "The Water-Splitting Zap",
+      "conceptFocus": "Light-Dependent Reactions & Photolysis of Water",
+      "narrativeHook": "To harness this solar energy, our hero leaps onto the thylakoid disc solar pads and zaps water molecules to unleash raw power!",
+      "visualAnimationCue": "Inside a glowing thylakoid disc, Captain Chloroplast uses solar energy rays to split a floating H2O water bubble. Sparking H+ ions charge up while oxygen gas floats upward like friendly bubbles.",
+      "durationPercent": 20,
+      "interactiveElement": "Swipe to split incoming water bubbles into hydrogen and oxygen!"
+    },
+    {
+      "id": "chap-3",
+      "chapterNumber": 3,
+      "title": "Supercharging the Batteries",
+      "conceptFocus": "ATP & NADPH",
+      "narrativeHook": "All that solar energy charges up our leaf city's high-energy battery crew: ATP and NADPH!",
+      "visualAnimationCue": "Electric sparks flow from the thylakoid into adorable battery-shaped characters labeled ATP and NADPH. They glow bright blue and yellow with enthusiastic grins as they power up.",
+      "durationPercent": 20,
+      "interactiveElement": "Drag solar sparks into ATP and NADPH to charge them!"
+    },
+    {
+      "id": "chap-4",
+      "chapterNumber": 4,
+      "title": "The Calvin Sugar Factory",
+      "conceptFocus": "Calvin Cycle (Stroma) & Glucose Synthesis",
+      "narrativeHook": "Over in the fluid stroma plaza, the Calvin Cycle wheel turns! Carbon dioxide rushes in, battery power activates, and sweet glucose sugar is forged!",
+      "visualAnimationCue": "A futuristic spinning clockwork wheel in the fluid stroma captures floating CO2 molecules. The supercharged ATP and NADPH batteries plug in, pressing out glowing golden glucose sugar bricks.",
+      "durationPercent": 25,
+      "interactiveElement": "Spin the Calvin Cycle gear to assemble glucose sugar!"
+    },
+    {
+      "id": "chap-5",
+      "chapterNumber": 5,
+      "title": "Powering the World",
+      "conceptFocus": "Energetic Foundation & Oxygen Balance",
+      "narrativeHook": "Glucose fuels the giant metropolis tree, while fresh oxygen keeps all life breathing. Photosynthesis powers our whole planet!",
+      "visualAnimationCue": "Camera zooms out rapidly from the microscopic chloroplast through the leaf, revealing a grand 3D tree shining in sunlight, releasing oxygen bubbles that support animated animals below.",
+      "durationPercent": 15,
+      "interactiveElement": "Pinch out to reveal the full thriving ecosystem!"
+    }
+  ],
+  "totalEstimatedDuration": 60
+}

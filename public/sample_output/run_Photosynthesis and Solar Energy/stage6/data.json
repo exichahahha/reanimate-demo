@@ -1,0 +1,19 @@
+{
+  "isPlaying": false,
+  "currentTime": 24,
+  "volume": 1,
+  "isExporting": false,
+  "exportProgress": 0,
+  "captionStyle": "Bold Pop-up",
+  "showMotionGraphics": true,
+  "playbackSpeed": 1,
+  "sceneVideos": {
+    "scene-5": {
+      "sceneId": "scene-5",
+      "prompt": "Use the generated Stage 5 scene image as the primary visual reference and starting image. Preserve the main subject, environment, composition, colors, lighting, and visual style from the image. Animate glowing oxygen bubbles floating gently up from the tree leaves into the sky. Animate sunbeams shimmering through the leaf canopy. Camera movement: Rapid epic zoom out and slight orbital rotation revealing the full ecosystem. Environmental movement: Swaying tree branches and animals moving cheerfully around the base. Keep the scene visually consistent with the reference image. Do not introduce unrelated objects or change the identity of the main subject. The resulting video should visually explain: How photosynthesis fuels plant growth and produces oxygen for global life.",
+      "isGenerating": false,
+      "modelUsed": "local-comfyui-video",
+      "error": "Missing local video workflow: C:\\REANIMATE\\local-ai\\workflows\\video.json"
+    }
+  }
+}
