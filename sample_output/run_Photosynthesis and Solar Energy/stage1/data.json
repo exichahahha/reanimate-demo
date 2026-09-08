@@ -1,0 +1,26 @@
+{
+  "noteContent": "PHOTOSYNTHESIS & CELLULAR ENERGY\n\nOverview:\nPhotosynthesis is the chemical process by which green plants, algae, and cyanobacteria convert light energy from the sun into chemical energy stored in glucose bonds.\n\nKey Components:\n1. Sunlight & Chlorophyll: Chlorophyll pigments inside chloroplasts absorb photons, primarily blue and red wavelengths, while reflecting green.\n2. Light-Dependent Reactions (Thylakoids):\n   - Water molecules (H2O) are split into Hydrogen ions, electrons, and Oxygen (O2) gas as a byproduct.\n   - Converts light energy into ATP and NADPH.\n3. Light-Independent Reactions / Calvin Cycle (Stroma):\n   - Carbon Dioxide (CO2) from air is fixed using ATP & NADPH to produce Glucose (C6H12O6).\n\nChemical Equation:\n6 CO2 + 6 H2O + Light Energy → C6H12O6 + 6 O2\n\nEcological Significance:\nPhotosynthesis produces atmospheric oxygen necessary for aerobic cellular respiration and forms the foundation of terrestrial and aquatic food pyramids.",
+  "themeIdea": "A tiny superhero chloroplast converting sunlight into chemical energy for a metropolis tree",
+  "targetAudience": "Middle/High School (Ages 12-17)",
+  "visualStyle": "3D Pixar Animation",
+  "targetDuration": 60,
+  "selectedModel": "gemini-3.6-flash",
+  "parsedOutput": {
+    "summary": "Photosynthesis is the fundamental biological process through which light energy from the sun is transformed into chemical energy, driving life on Earth. Inside specialized plant organelles called chloroplasts, chlorophyll pigments capture specific solar wavelengths while reflecting green light. This captured light energy powers two interconnected stages: light-dependent reactions in the thylakoids and the light-independent Calvin cycle in the stroma. During the light-dependent reactions, water molecules are split to release oxygen gas while charging up ATP and NADPH molecules. Subsequently, in the Calvin cycle, carbon dioxide from the surrounding air is fixed using ATP and NADPH to construct glucose, which serves as energy fuel for the cell. Ultimately, photosynthesis maintains atmospheric oxygen levels and forms the primary energetic foundation for terrestrial and aquatic food webs.",
+    "keyConcepts": [
+      "Chloroplast & Chlorophyll",
+      "Light-Dependent Reactions",
+      "Calvin Cycle (Stroma)",
+      "ATP & NADPH",
+      "Photolysis of Water",
+      "Glucose Synthesis"
+    ],
+    "suggestedTitles": [
+      "Tiny Powerhouse: The Chloroplast Superhero!",
+      "Photosynthesis Unleashed: How Leaves Power the Planet",
+      "Inside the Solar Factory: A Plant Cell Adventure"
+    ],
+    "difficultyLevel": "Intermediate",
+    "coreTakeaway": "Photosynthesis transforms sunlight, water, and carbon dioxide into life-sustaining oxygen and chemical energy in the form of glucose."
+  }
+}

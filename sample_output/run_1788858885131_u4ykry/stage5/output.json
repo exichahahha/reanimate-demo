@@ -1,0 +1,38 @@
+{
+  "selectedModel": "gemini-flash-text-image",
+  "sceneImages": {
+    "scene-1": {
+      "sceneId": "scene-1",
+      "imageUrl": "/sample-assets/stage5/scene%201%20img.jpg",
+      "isGenerating": false,
+      "modelUsed": "demo"
+    },
+    "scene-2": {
+      "sceneId": "scene-2",
+      "imageUrl": "/sample-assets/stage5/scene%202%20img.jpg",
+      "isGenerating": false,
+      "modelUsed": "demo"
+    },
+    "scene-3": {
+      "sceneId": "scene-3",
+      "imageUrl": "/sample-assets/stage5/scene%203%20img.jpg",
+      "isGenerating": false,
+      "modelUsed": "demo"
+    },
+    "scene-4": {
+      "sceneId": "scene-4",
+      "imageUrl": "/sample-assets/stage5/scene%204%20img.jpg",
+      "isGenerating": false,
+      "modelUsed": "demo"
+    },
+    "scene-5": {
+      "sceneId": "scene-5",
+      "prompt": "Educational scene about Ecosystem Energetic Balance and Global Oxygen Cycle. Main subject: Magnificent lush green tree bathed in brilliant sunlight, emitting oxygen bubbles and sustaining forest wildlife. Action/state: Tree synthesizing nutrients, releasing O2 gas into atmosphere, and supporting surrounding ecosystem. Environment: Vibrant sunny forest landscape under a clear blue sky. Composition: Heroic grand shot with the majestic tree centered, animals in foreground, atmospheric sunbeams above. Educational visualization: Arrows illustrating planetary oxygen and glucose energy distribution flow across the biome. Visual style: 2D Vector / Pixar Hybrid. Clear subject hierarchy, accurate educational representation, high visual clarity, no irrelevant objects.",
+      "aspectRatio": "16:9",
+      "isGenerating": false,
+      "imageUrl": "/sample-assets/stage5/scene%205%20img.jpg",
+      "modelUsed": "demo"
+    }
+  },
+  "globalAspectRatio": "16:9"
+}

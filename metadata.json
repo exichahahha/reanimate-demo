@@ -1,0 +1,8 @@
+{
+  "name": "REANIMATE",
+  "description": "AI-powered educational video creation platform featuring a 6-stage pipeline from notes upload to AI script, voiceovers, scene images, and dynamic video studio rendering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

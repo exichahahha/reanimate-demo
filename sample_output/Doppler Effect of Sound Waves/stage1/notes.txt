@@ -1,0 +1,31 @@
+DOPPLER EFFECT OF SOUND WAVES
+
+Overview:
+The Doppler effect is the change in observed sound frequency caused by motion between a sound source and an observer. When the source moves toward the observer, sound waves are compressed, causing a higher perceived pitch. When the source moves away, the waves spread out, causing a lower perceived pitch.
+
+Key Components:
+1. Sound Waves:
+   - Sound travels as longitudinal waves through a medium such as air.
+   - The particles of the medium vibrate back and forth in the same direction the wave travels.
+
+2. Frequency and Pitch:
+   - Frequency is the number of wave cycles passing a point per second.
+   - Higher frequency means higher pitch.
+   - Lower frequency means lower pitch.
+
+3. Moving Source:
+   - A moving siren, car horn, or ambulance changes how close together the wavefronts are.
+   - In front of the moving source, wavefronts bunch together.
+   - Behind the moving source, wavefronts spread apart.
+
+4. Observed Effect:
+   - Approaching source: higher frequency, shorter wavelength, higher pitch.
+   - Receding source: lower frequency, longer wavelength, lower pitch.
+
+Real-World Examples:
+- Ambulance sirens sound higher as they approach and lower after they pass.
+- Race cars seem to change pitch as they move past spectators.
+- Bats and dolphins use frequency shifts in echoes to detect motion.
+
+Core Takeaway:
+The Doppler effect happens because motion changes the spacing of sound waves reaching an observer, changing the pitch that is heard.

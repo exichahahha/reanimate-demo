@@ -1,0 +1,39 @@
+PROPERTIES OF WAVES
+
+Overview:
+A wave is a disturbance that transfers energy from one place to another without permanently moving matter. Waves can travel through matter, like sound waves, or through empty space, like light waves.
+
+Key Components:
+1. Amplitude:
+   - Amplitude is the height of a wave from its rest position.
+   - Greater amplitude means more energy.
+   - For sound, greater amplitude means louder sound.
+
+2. Wavelength:
+   - Wavelength is the distance between matching points on a wave, such as crest to crest.
+   - Shorter wavelengths usually mean higher frequencies.
+   - Longer wavelengths usually mean lower frequencies.
+
+3. Frequency:
+   - Frequency is the number of waves passing a point each second.
+   - It is measured in hertz.
+   - Higher frequency waves carry more cycles per second.
+
+4. Wave Speed:
+   - Wave speed describes how fast a wave travels.
+   - It depends on the medium and type of wave.
+   - Wave speed can be calculated using: speed = frequency x wavelength.
+
+5. Types of Waves:
+   - Transverse waves move up and down while energy travels forward.
+   - Longitudinal waves compress and stretch in the same direction as energy transfer.
+   - Sound is longitudinal; many water and light wave models are transverse.
+
+6. Wave Behaviors:
+   - Reflection: waves bounce off a surface.
+   - Refraction: waves bend when entering a new medium.
+   - Diffraction: waves spread around obstacles or through gaps.
+   - Interference: waves combine to become stronger or weaker.
+
+Core Takeaway:
+Waves transfer energy, and their behavior can be described using amplitude, wavelength, frequency, speed, and interactions with materials.
