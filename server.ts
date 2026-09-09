@@ -14,7 +14,14 @@ import { buildGeminiNarrationPrompt } from "./src/utils/ttsPrompt";
 const SAMPLE_OUTPUT_ROOT = path.resolve(process.cwd(), "sample_output");
 const PHOTOSYNTHESIS_SAMPLE_ID = "sample_photosynthesis_solar_energy";
 const PHOTOSYNTHESIS_SAMPLE_NAME = "Photosynthesis and Solar Energy";
-const PHOTOSYNTHESIS_SAMPLE_ROOT = path.join(SAMPLE_OUTPUT_ROOT, PHOTOSYNTHESIS_SAMPLE_NAME);
+const photosynthesisSampleRoots = [
+  path.join(SAMPLE_OUTPUT_ROOT, "photosynthesis"),
+  path.join(process.cwd(), "public", "sample_output", "photosynthesis"),
+  path.join(SAMPLE_OUTPUT_ROOT, PHOTOSYNTHESIS_SAMPLE_NAME),
+];
+const PHOTOSYNTHESIS_SAMPLE_ROOT = photosynthesisSampleRoots.find((candidate) =>
+  fs.existsSync(path.join(candidate, "stage1", "data.json")),
+) || photosynthesisSampleRoots[0];
 
 function safeRunId(runId: string) {
   if (runId === PHOTOSYNTHESIS_SAMPLE_ID) return runId;
