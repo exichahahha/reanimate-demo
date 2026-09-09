@@ -1,0 +1,9 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "functions": {
+    "api/demo-sample/photosynthesis.ts": {
+      "includeFiles": "sample_output/photosynthesis/**/data.json"
+    }
+  }
+}
