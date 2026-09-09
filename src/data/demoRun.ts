@@ -263,7 +263,7 @@ const photosynthesisVoiceovers = DEMO_STAGE3_DATA.scenes.reduce<Record<string, V
     voiceName: 'Kore',
     speed: 1,
     pitch: 1,
-    audioDataUrl: `/sample-assets/stage4/asset_voiceoverAssets_scene-${scene.sceneNumber}_audioDataUrl.mp3`,
+    audioDataUrl: `/sample_output/photosynthesis/stage4/asset_voiceoverAssets_scene-${scene.sceneNumber}_audioDataUrl.mp3`,
   };
   return assets;
 }, {});
@@ -273,7 +273,7 @@ const photosynthesisImages = DEMO_STAGE3_DATA.scenes.reduce<Record<string, Scene
     sceneId: scene.id,
     prompt: scene.imagePrompt || scene.visualDescription,
     aspectRatio: '16:9',
-    imageUrl: `/sample-assets/stage5/scene%20${scene.sceneNumber}%20img.jpg`,
+    imageUrl: `/sample_output/photosynthesis/stage5/scene%20${scene.sceneNumber}%20img.jpg`,
     modelUsed: 'gemini-flash-text-image',
   };
   return assets;
@@ -283,7 +283,7 @@ const photosynthesisVideos = DEMO_STAGE3_DATA.scenes.reduce<Record<string, Scene
   assets[scene.id] = {
     sceneId: scene.id,
     prompt: scene.videoPrompt || scene.visualDescription,
-    videoUrl: `/sample-assets/stage6/scene%20${scene.sceneNumber}%20vid.mp4`,
+    videoUrl: `/sample_output/photosynthesis/stage6/scene%20${scene.sceneNumber}%20vid.mp4`,
     modelUsed: 'omni-flash',
   };
   return assets;

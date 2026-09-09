@@ -98,20 +98,20 @@ function buildPhotosynthesisSampleStages() {
     voiceoverAssets[sceneId] = {
       ...(stage4?.voiceoverAssets?.[sceneId] || {}),
       sceneId,
-      audioDataUrl: `/sample-assets/stage4/asset_voiceoverAssets_scene-${scene}_audioDataUrl.mp3`,
+      audioDataUrl: `/sample_output/photosynthesis/stage4/asset_voiceoverAssets_scene-${scene}_audioDataUrl.mp3`,
       isGenerating: false,
     };
     sceneImages[sceneId] = {
       ...(stage5?.sceneImages?.[sceneId] || {}),
       sceneId,
-      imageUrl: `/sample-assets/stage5/scene%20${scene}%20img.jpg`,
+      imageUrl: `/sample_output/photosynthesis/stage5/scene%20${scene}%20img.jpg`,
       isGenerating: false,
       modelUsed: "demo",
     };
     sceneVideos[sceneId] = {
       ...(stage6?.sceneVideos?.[sceneId] || {}),
       sceneId,
-      videoUrl: `/sample-assets/stage6/scene%20${scene}%20vid.mp4`,
+      videoUrl: `/sample_output/photosynthesis/stage6/scene%20${scene}%20vid.mp4`,
       isGenerating: false,
       modelUsed: "demo",
       error: undefined,
