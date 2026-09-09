@@ -1,0 +1,26 @@
+{
+  "parsedNotes": {
+    "summary": "Photosynthesis is the fundamental biological process through which light energy from the sun is transformed into chemical energy, driving life on Earth. Inside specialized plant organelles called chloroplasts, chlorophyll pigments capture specific solar wavelengths while reflecting green light. This captured light energy powers two interconnected stages: light-dependent reactions in the thylakoids and the light-independent Calvin cycle in the stroma. During the light-dependent reactions, water molecules are split to release oxygen gas while charging up ATP and NADPH molecules. Subsequently, in the Calvin cycle, carbon dioxide from the surrounding air is fixed using ATP and NADPH to construct glucose, which serves as energy fuel for the cell. Ultimately, photosynthesis maintains atmospheric oxygen levels and forms the primary energetic foundation for terrestrial and aquatic food webs.",
+    "keyConcepts": [
+      "Chloroplast & Chlorophyll",
+      "Light-Dependent Reactions",
+      "Calvin Cycle (Stroma)",
+      "ATP & NADPH",
+      "Photolysis of Water",
+      "Glucose Synthesis"
+    ],
+    "suggestedTitles": [
+      "Tiny Powerhouse: The Chloroplast Superhero!",
+      "Photosynthesis Unleashed: How Leaves Power the Planet",
+      "Inside the Solar Factory: A Plant Cell Adventure"
+    ],
+    "difficultyLevel": "Intermediate",
+    "coreTakeaway": "Photosynthesis transforms sunlight, water, and carbon dioxide into life-sustaining oxygen and chemical energy in the form of glucose."
+  },
+  "themeIdea": "A tiny superhero chloroplast converting sunlight into chemical energy for a metropolis tree",
+  "targetAudience": "Middle/High School (Ages 12-17)",
+  "visualStyle": "3D Pixar Animation",
+  "narrativeTone": "Enthusiastic & Friendly",
+  "targetDuration": 60,
+  "selectedModel": "gemini-3.6-flash"
+}
