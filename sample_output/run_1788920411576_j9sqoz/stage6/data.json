@@ -1,0 +1,10 @@
+{
+  "isPlaying": false,
+  "currentTime": 0,
+  "volume": 1,
+  "isExporting": false,
+  "exportProgress": 0,
+  "captionStyle": "Bold Pop-up",
+  "showMotionGraphics": true,
+  "playbackSpeed": 1
+}
