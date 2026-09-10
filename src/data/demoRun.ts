@@ -310,6 +310,12 @@ export function getDemoSampleOutput<T>(presetId: string | undefined, stage: Demo
   const sample = DEMO_SAMPLE_OUTPUTS[presetId || 'photosynthesis']?.[stage] as DemoSampleOutput<T> | undefined;
   if (sample?.model === selectedModel) return sample;
 
+  if (presetId === 'chemical-bonding') {
+    const model = stage === 'stage4' ? 'elevenlabs-tts' : stage === 'stage6' ? 'omni-flash' : 'gemini-flash-text-image';
+    if (selectedModel === model || (selectedModel === 'chatgpt' && ['stage1', 'stage2', 'stage3'].includes(stage))) {
+      return { stage, model: selectedModel, modelLabel: selectedModel, estimatedDurationMs: 250, output: {} as T };
+    }
+  }
   // ChatGPT is a demo-only text-model option for the saved Photosynthesis project.
   // It reuses the curated sample output through Stage 3 while preserving the chosen model in the UI.
   if (sample && selectedModel === 'chatgpt' && ['stage1', 'stage2', 'stage3'].includes(stage)) {
@@ -323,7 +329,7 @@ export const waitForDemoOutput = (sample: DemoSampleOutput<unknown>) => new Prom
   window.setTimeout(resolve, sample.estimatedDurationMs);
 });
 
-type LocalPhotosynthesisSample = {
+type LocalSavedSample = {
   stage1?: Stage1Data;
   stage2?: Stage2Data;
   stage3?: Stage3Data;
@@ -332,17 +338,18 @@ type LocalPhotosynthesisSample = {
   stage6?: Stage6Data;
 };
 
-// The local endpoint reads sample_output/Photosynthesis and Solar Energy; it never calls an AI service.
+// Saved demo endpoints read the local sample_output folder; they never call an AI service.
 export async function loadDemoSampleOutput<T>(presetId: string | undefined, stage: DemoOutputStage, selectedModel: string): Promise<DemoSampleOutput<T> | undefined> {
   const sample = getDemoSampleOutput<T>(presetId, stage, selectedModel);
   if (!sample) return undefined;
 
   await waitForDemoOutput(sample);
-  if ((presetId || 'photosynthesis') !== 'photosynthesis') return sample;
+  const savedPresetId = presetId || 'photosynthesis';
+  if (!['photosynthesis', 'chemical-bonding'].includes(savedPresetId)) return sample;
 
-  const response = await fetch('/api/demo-sample/photosynthesis');
-  if (!response.ok) throw new Error('Unable to load the saved Photosynthesis sample output.');
-  const project = await response.json() as LocalPhotosynthesisSample;
+  const response = await fetch(`/api/demo-sample/${savedPresetId}`);
+  if (!response.ok) throw new Error(`Unable to load the saved ${savedPresetId === 'chemical-bonding' ? 'Chemical Bonding' : 'Photosynthesis'} sample output.`);
+  const project = await response.json() as LocalSavedSample;
   const output = stage === 'stage1' ? project.stage1?.parsedOutput
     : stage === 'stage2' ? project.stage2 && { ...project.stage2, selectedModel }
     : stage === 'stage3' ? project.stage3 && { ...project.stage3, selectedModel }
@@ -350,6 +357,6 @@ export async function loadDemoSampleOutput<T>(presetId: string | undefined, stag
     : stage === 'stage5' ? project.stage5 && { ...project.stage5, selectedModel }
     : project.stage6 && { ...project.stage6, isPlaying: false, currentTime: 0, isExporting: false, exportProgress: 0 };
 
-  if (!output) throw new Error(`The saved Photosynthesis ${stage} output is unavailable.`);
+  if (!output) throw new Error(`The saved ${savedPresetId === 'chemical-bonding' ? 'Chemical Bonding' : 'Photosynthesis'} ${stage} output is unavailable.`);
   return { ...sample, output: output as T };
 }

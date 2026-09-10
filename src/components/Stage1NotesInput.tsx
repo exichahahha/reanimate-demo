@@ -89,9 +89,9 @@ export const Stage1NotesInput: React.FC<Stage1NotesInputProps> = ({
   const loadPresetSample = async (preset: typeof SAMPLE_NOTES[0]) => {
     let savedStage1: Partial<Stage1Data> | undefined;
 
-    if (preset.id === 'photosynthesis') {
+    if (['photosynthesis', 'chemical-bonding'].includes(preset.id)) {
       try {
-        const response = await fetch('/api/demo-sample/photosynthesis');
+        const response = await fetch(`/api/demo-sample/${preset.id}`);
         if (response.ok) {
           const sample = await response.json() as { stage1?: Partial<Stage1Data> };
           savedStage1 = sample.stage1;
@@ -160,7 +160,7 @@ export const Stage1NotesInput: React.FC<Stage1NotesInputProps> = ({
               </span>
             </div>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5">
-              {SAMPLE_NOTES.slice(0, 1).map((sample) => (
+              {SAMPLE_NOTES.filter((sample) => ['photosynthesis', 'chemical-bonding'].includes(sample.id)).map((sample) => (
                 <button
                   key={sample.id}
                   onClick={() => { void loadPresetSample(sample); }}

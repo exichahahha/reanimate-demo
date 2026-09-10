@@ -13,6 +13,7 @@ import { buildGeminiNarrationPrompt } from "./src/utils/ttsPrompt";
 
 const SAMPLE_OUTPUT_ROOT = path.resolve(process.cwd(), "sample_output");
 const PHOTOSYNTHESIS_SAMPLE_ID = "sample_photosynthesis_solar_energy";
+const CHEMICAL_BONDING_SAMPLE_ROOT = path.join(SAMPLE_OUTPUT_ROOT, 'run_1788705472717_bybmev');
 const PHOTOSYNTHESIS_SAMPLE_NAME = "Photosynthesis and Solar Energy";
 const photosynthesisSampleRoots = [
   path.join(SAMPLE_OUTPUT_ROOT, "photosynthesis"),
@@ -135,6 +136,17 @@ function buildPhotosynthesisSampleStages() {
   };
 }
 
+function buildChemicalBondingSampleStages() {
+  const readStage = (stage: number) => readJsonIfExists(path.join(CHEMICAL_BONDING_SAMPLE_ROOT, `stage${stage}`, "data.json")) as any;
+  const stage1 = readStage(1), stage2 = readStage(2), stage3 = readStage(3), stage4 = readStage(4), stage5 = readStage(5), stage6 = readStage(6);
+  const runAsset = (stage: number, fileName: string) => `/run-assets/run_1788705472717_bybmev/stage${stage}/${encodeURIComponent(fileName)}`;
+  const voiceoverAssets = Object.fromEntries(Object.entries(stage4?.voiceoverAssets || {}).map(([sceneId, asset]: [string, any]) => [sceneId, { ...asset, sceneId, audioDataUrl: asset.sourceFileName ? runAsset(4, asset.sourceFileName) : asset.audioDataUrl, isGenerating: false }]));
+  const sceneImages = Object.fromEntries((stage3?.scenes || []).map((scene: any, index: number) => {
+    const sceneId = scene.id || `scene-${index + 1}`;
+    return [sceneId, { ...(stage5?.sceneImages?.[sceneId] || {}), sceneId, prompt: scene.imagePrompt || scene.visualDescription || '', aspectRatio: stage5?.globalAspectRatio || '16:9', imageUrl: runAsset(5, `scene ${index + 1}.jpg`), isGenerating: false, modelUsed: 'local-file' }];
+  }));
+  return { stage1: { ...stage1, presetId: 'chemical-bonding' }, stage2, stage3, stage4: { ...stage4, voiceoverAssets }, stage5: { ...stage5, sceneImages }, stage6 };
+}
 // Load env files from the project root so local dev and AI Studio both work.
 const envFiles = [".env", ".env.local"];
 for (const envFile of envFiles) {
@@ -155,6 +167,7 @@ app.use(express.urlencoded({ extended: true, limit: "50mb" }));
 // The bundled Photosynthesis demo assets are served as normal media files so
 // the browser can preview them without putting binary data in React state.
 app.use("/sample-assets", express.static(PHOTOSYNTHESIS_SAMPLE_ROOT));
+app.use('/run-assets', express.static(SAMPLE_OUTPUT_ROOT));
 
 app.get("/api/demo-sample/photosynthesis", (_req, res) => {
   try {
@@ -164,6 +177,11 @@ app.get("/api/demo-sample/photosynthesis", (_req, res) => {
   }
 });
 
+
+app.get('/api/demo-sample/chemical-bonding', (_req, res) => {
+  try { res.json(buildChemicalBondingSampleStages()); }
+  catch (error: any) { res.status(500).json({ error: error.message || 'Unable to load Chemical Bonding demo sample.' }); }
+});
 app.post("/api/stage6/convert-to-mp4", express.raw({ type: ["video/webm", "application/octet-stream"], limit: "500mb" }), (req, res) => {
   if (!ffmpegPath || !fs.existsSync(ffmpegPath)) {
     return res.status(503).json({ error: "The project-local FFmpeg binary is unavailable." });

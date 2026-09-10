@@ -24,6 +24,7 @@ import {
 interface Stage4AssetsVoiceoverProps {
   stage3Data: Stage3Data;
   data: Stage4Data;
+  presetId?: string;
   updateData: (fields: Partial<Stage4Data>) => void;
   onPrevStage: () => void;
   onNextStage: () => void;
@@ -42,6 +43,7 @@ export const Stage4AssetsVoiceover: React.FC<Stage4AssetsVoiceoverProps> = ({
   stage3Data,
   data,
   updateData,
+  presetId,
   onPrevStage,
   onNextStage,
   runId,
@@ -78,7 +80,7 @@ export const Stage4AssetsVoiceover: React.FC<Stage4AssetsVoiceoverProps> = ({
 
     try {
       const input = { text: dialogueText, voiceName: currentAsset.voiceName, selectedModel: data.selectedModel };
-      const sample = await loadDemoSampleOutput<Stage4Data>('photosynthesis', 'stage4', data.selectedModel);
+      const sample = await loadDemoSampleOutput<Stage4Data>(presetId, 'stage4', data.selectedModel);
       if (!sample) throw new Error('This model does not have a saved voiceover sample yet.');
       const savedAsset = sample.output.voiceoverAssets[sceneId];
       if (!savedAsset) throw new Error('No saved voiceover is available for this scene.');
@@ -106,7 +108,7 @@ export const Stage4AssetsVoiceover: React.FC<Stage4AssetsVoiceoverProps> = ({
     setIsBatchGenerating(true);
     setTtsError(null);
     try {
-      const sample = await loadDemoSampleOutput<Stage4Data>('photosynthesis', 'stage4', data.selectedModel);
+      const sample = await loadDemoSampleOutput<Stage4Data>(presetId, 'stage4', data.selectedModel);
       if (!sample) throw new Error('This model does not have a saved voiceover sample yet.');
       updateData(sample.output);
       await saveStageInputOutput(runId || null, 4, { selectedModel: data.selectedModel }, sample.output, sample.output);

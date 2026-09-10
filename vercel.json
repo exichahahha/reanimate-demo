@@ -2,8 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "vite",
   "functions": {
-    "api/demo-sample/photosynthesis.ts": {
-      "includeFiles": "sample_output/photosynthesis/**/data.json"
-    }
+    "api/demo-sample/photosynthesis.ts": { "includeFiles": "sample_output/photosynthesis/**/data.json" },
+    "api/demo-sample/chemical-bonding.ts": { "includeFiles": "sample_output/run_1788705472717_bybmev/**" }
   }
 }

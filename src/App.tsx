@@ -228,6 +228,7 @@ export default function App() {
           <Stage3SceneScript
             stage2Data={stage2Data}
             data={stage3Data}
+            presetId={stage1Data.presetId}
             updateData={(fields) => setStage3Data((prev) => ({ ...prev, ...fields }))}
             onPrevStage={() => setCurrentStage(2)}
             onNextStage={() => setCurrentStage(4)}
@@ -239,6 +240,7 @@ export default function App() {
           <Stage4AssetsVoiceover
             stage3Data={stage3Data}
             data={stage4Data}
+            presetId={stage1Data.presetId}
             updateData={(fields) => setStage4Data((prev) => ({ ...prev, ...fields }))}
             onPrevStage={() => setCurrentStage(3)}
             onNextStage={() => setCurrentStage(5)}

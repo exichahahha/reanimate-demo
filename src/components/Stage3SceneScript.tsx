@@ -28,6 +28,7 @@ import {
 interface Stage3SceneScriptProps {
   stage2Data: Stage2Data;
   data: Stage3Data;
+  presetId?: string;
   updateData: (fields: Partial<Stage3Data>) => void;
   onPrevStage: () => void;
   onNextStage: () => void;
@@ -57,6 +58,7 @@ const MOTION_GRAPHICS = [
 export const Stage3SceneScript: React.FC<Stage3SceneScriptProps> = ({
   stage2Data,
   data,
+  presetId,
   updateData,
   onPrevStage,
   onNextStage,
@@ -96,7 +98,7 @@ export const Stage3SceneScript: React.FC<Stage3SceneScriptProps> = ({
       selectedModel: data.selectedModel,
     };
     try {
-      const sample = await loadDemoSampleOutput<Stage3Data>('photosynthesis', 'stage3', data.selectedModel);
+      const sample = await loadDemoSampleOutput<Stage3Data>(presetId, 'stage3', data.selectedModel);
       if (!sample) throw new Error('This model does not have a saved production-script sample yet.');
       updateData(sample.output);
       await saveStageInputOutput(runId || null, 3, input, sample.output, sample.output);
