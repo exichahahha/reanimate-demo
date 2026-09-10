@@ -32,12 +32,12 @@ export default function App() {
     targetAudience: 'Middle/High School (Ages 12-17)',
     visualStyle: '3D Pixar Animation',
     targetDuration: 60,
-    selectedModel: '',
+    selectedModel: 'gemini-flash-text-image',
   });
 
   // Stage 2 State
   const [stage2Data, setStage2Data] = useState<Stage2Data>({
-    selectedModel: '',
+    selectedModel: 'gemini-flash-text-image',
     narrativeTone: 'Enthusiastic & Friendly',
     chapters: [],
     totalEstimatedDuration: 60,
@@ -45,14 +45,14 @@ export default function App() {
 
   // Stage 3 State
   const [stage3Data, setStage3Data] = useState<Stage3Data>({
-    selectedModel: '',
+    selectedModel: 'gemini-flash-text-image',
     scenes: [],
     globalMusicGenre: 'Uplifting Lo-Fi Beats',
   });
 
   // Stage 4 State
   const [stage4Data, setStage4Data] = useState<Stage4Data>({
-    selectedModel: '',
+    selectedModel: 'elevenlabs-tts',
     selectedVoice: 'Kore',
     voiceoverAssets: {},
     bgMusicVolume: 0.3,
@@ -60,7 +60,7 @@ export default function App() {
 
   // Stage 5 State
   const [stage5Data, setStage5Data] = useState<Stage5Data>({
-    selectedModel: '',
+    selectedModel: 'gemini-flash-text-image',
     sceneImages: {},
     globalAspectRatio: '16:9',
   });
@@ -101,10 +101,10 @@ export default function App() {
   };
 
   const clearGeneratedStages = () => {
-    setStage2Data({ selectedModel: '', narrativeTone: 'Enthusiastic & Friendly', chapters: [], totalEstimatedDuration: 60 });
-    setStage3Data({ selectedModel: '', scenes: [], globalMusicGenre: 'Uplifting Lo-Fi Beats' });
-    setStage4Data({ selectedModel: '', selectedVoice: 'Kore', voiceoverAssets: {}, bgMusicVolume: 0.3 });
-    setStage5Data({ selectedModel: '', sceneImages: {}, globalAspectRatio: '16:9' });
+    setStage2Data({ selectedModel: 'gemini-flash-text-image', narrativeTone: 'Enthusiastic & Friendly', chapters: [], totalEstimatedDuration: 60 });
+    setStage3Data({ selectedModel: 'gemini-flash-text-image', scenes: [], globalMusicGenre: 'Uplifting Lo-Fi Beats' });
+    setStage4Data({ selectedModel: 'elevenlabs-tts', selectedVoice: 'Kore', voiceoverAssets: {}, bgMusicVolume: 0.3 });
+    setStage5Data({ selectedModel: 'gemini-flash-text-image', sceneImages: {}, globalAspectRatio: '16:9' });
     setStage6Data({ isPlaying: false, currentTime: 0, volume: 1, isExporting: false, exportProgress: 0, captionStyle: 'Bold Pop-up', showMotionGraphics: true, playbackSpeed: 1.0 });
   };
 
@@ -151,27 +151,27 @@ export default function App() {
       targetAudience: 'Middle/High School (Ages 12-17)',
       visualStyle: '3D Pixar Animation',
       targetDuration: 60,
-      selectedModel: '',
+      selectedModel: 'gemini-flash-text-image',
     });
     setStage2Data({
-      selectedModel: '',
+      selectedModel: 'gemini-flash-text-image',
       narrativeTone: 'Enthusiastic & Friendly',
       chapters: [],
       totalEstimatedDuration: 60,
     });
     setStage3Data({
-      selectedModel: '',
+      selectedModel: 'gemini-flash-text-image',
       scenes: [],
       globalMusicGenre: 'Uplifting Lo-Fi Beats',
     });
     setStage4Data({
-      selectedModel: '',
+      selectedModel: 'elevenlabs-tts',
       selectedVoice: 'Kore',
       voiceoverAssets: {},
       bgMusicVolume: 0.3,
     });
     setStage5Data({
-      selectedModel: '',
+      selectedModel: 'gemini-flash-text-image',
       sceneImages: {},
       globalAspectRatio: '16:9',
     });

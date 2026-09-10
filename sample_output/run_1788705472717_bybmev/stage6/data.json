@@ -1,6 +1,6 @@
 {
   "isPlaying": false,
-  "currentTime": 13.84090000000037,
+  "currentTime": 51.538684,
   "volume": 1,
   "isExporting": false,
   "exportProgress": 0,
@@ -44,7 +44,7 @@
             "sceneId": "scene-1",
             "text": "I'm not stable with 1 valence electron, I need to find one friend to form ionic bond",
             "startOffsetSec": 0,
-            "endOffsetSec": 8
+            "endOffsetSec": 8.010884
           }
         ],
         "videoUrl": "/run-assets/run_1788705472717_bybmev/stage6/scene%201.mp4",
@@ -55,7 +55,7 @@
         "sceneId": "scene-2",
         "sceneNumber": 2,
         "title": "Ionic Bonding through Electron Transfer",
-        "durationSec": 13.09,
+        "durationSec": 13.04,
         "trimStartSec": 0,
         "trimEndSec": 0,
         "mediaType": "video",
@@ -101,7 +101,7 @@
         "sceneId": "scene-3",
         "sceneNumber": 3,
         "title": "Covalent Bonding through Electron Sharing",
-        "durationSec": 12.67,
+        "durationSec": 10.0078,
         "trimStartSec": 0,
         "trimEndSec": 0,
         "mediaType": "video",
@@ -121,7 +121,7 @@
           "sceneId": "scene-3",
           "text": "Oh NO! I'm not stable with 6 valence electron. What if we share the electrons?",
           "startOffsetSec": 0,
-          "endOffsetSec": 12.64
+          "endOffsetSec": 10.0078
         },
         "subtitles": [
           {
@@ -129,7 +129,7 @@
             "sceneId": "scene-3",
             "text": "Oh NO! I'm not stable with 6 valence electron. What if we share the electrons?",
             "startOffsetSec": 0,
-            "endOffsetSec": 12.64
+            "endOffsetSec": 10.0078
           }
         ],
         "videoUrl": "/run-assets/run_1788705472717_bybmev/stage6/scene%203.mp4",
@@ -140,7 +140,7 @@
         "sceneId": "scene-4",
         "sceneNumber": 4,
         "title": "Metallic Bonding and the Sea of Electrons",
-        "durationSec": 12,
+        "durationSec": 10.24,
         "trimStartSec": 0,
         "trimEndSec": 0,
         "mediaType": "video",
@@ -192,7 +192,7 @@
         "sceneId": "scene-5",
         "sceneNumber": 5,
         "title": "Building Real-World Matter",
-        "durationSec": 12,
+        "durationSec": 10.24,
         "trimStartSec": 0,
         "trimEndSec": 0,
         "mediaType": "video",

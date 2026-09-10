@@ -83,7 +83,7 @@ export const Stage6VideoStudio: React.FC<Stage6VideoStudioProps> = ({
   const [selectedSceneId, setSelectedSceneId] = useState<string | null>(null);
   const [history, setHistory] = useState<TimelineComposition[]>([]);
   const [isModelModalOpen, setIsModelModalOpen] = useState(false);
-  const [videoModel, setVideoModel] = useState('');
+  const [videoModel, setVideoModel] = useState('omni-flash');
   const [isGeneratingVideos, setIsGeneratingVideos] = useState(false);
   const [exportError, setExportError] = useState<string | null>(null);
 

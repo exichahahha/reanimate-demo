@@ -111,7 +111,7 @@ export const Stage1NotesInput: React.FC<Stage1NotesInputProps> = ({
       visualStyle: savedStage1?.visualStyle || data.visualStyle,
       targetDuration: savedStage1?.targetDuration || data.targetDuration,
       presetId: preset.id,
-      selectedModel: '',
+      selectedModel: 'gemini-flash-text-image',
       parsedOutput: savedStage1?.parsedOutput,
     });
     onPresetSelected?.(preset.id);
