@@ -1,0 +1,51 @@
+{
+  "selectedModel": "local-file",
+  "sceneImages": {
+    "scene-1": {
+      "sceneId": "scene-1",
+      "prompt": "Educational scene about Valence Electrons and Chemical Stability. Main subject: A cute 2D Vector and Pixar hybrid Sodium atom character named Adam with a glowing core nucleus and an outer orbital shell. Action/state: Pacing nervously while watching a single bright yellow electron orbit his outer ring. Environment: Minimalist dark blue digital scientific void with subtle atomic grid lines. Composition: Centered medium shot framing the atom character with prominent visual space for the single outer electron ring. Educational visualization: Glowing dotted orbital line emphasizing the outer valence shell with an animated text callout reading Valence Electron = 1. Visual style: 2D Vector / Pixar Hybrid. Clear subject hierarchy, accurate educational representation, high visual clarity, no irrelevant objects.",
+      "aspectRatio": "16:9",
+      "imageUrl": "/run-assets/run_1788705472717_bybmev/stage5/scene%201.jpg",
+      "isGenerating": false,
+      "modelUsed": "local-file",
+      "sourceFileName": "scene 1.jpg"
+    },
+    "scene-2": {
+      "sceneId": "scene-2",
+      "prompt": "Educational scene about Ionic Bonding. Main subject: Two 2D Vector and Pixar hybrid atom characters representing Sodium and Chlorine. Action/state: Sodium tossing a bright yellow glowing electron orb directly into the waiting hands of Chlorine. Environment: Clean visual science laboratory background with energetic aura waves. Composition: Wide side-by-side arrangement with a prominent curved trajectory arc connecting the two atoms across the middle frame. Educational visualization: Curved glowing arrow mapping the electron path with bold + charge callout above Sodium and - charge callout above Chlorine. Visual style: 2D Vector / Pixar Hybrid. Clear subject hierarchy, accurate educational representation, high visual clarity, no irrelevant objects.",
+      "aspectRatio": "16:9",
+      "imageUrl": "/run-assets/run_1788705472717_bybmev/stage5/scene%202.jpg",
+      "isGenerating": false,
+      "modelUsed": "local-file",
+      "sourceFileName": "scene 2.jpg"
+    },
+    "scene-3": {
+      "sceneId": "scene-3",
+      "prompt": "Educational scene about Covalent Bonding. Main subject: Two vibrant red Oxygen atom characters holding hands warmly. Action/state: Sharing two pairs of glowing yellow electrons that travel continuous loops around both outer shells. Environment: Minimalist bright indigo space with floating scientific molecule diagrams. Composition: Centered close-up focus on the two bonded Oxygen atoms and their overlapping electron shell interface. Educational visualization: Bright figure-eight infinity orbital path connecting both atoms with text label reading Shared Electron Pairs. Visual style: 2D Vector / Pixar Hybrid. Clear subject hierarchy, accurate educational representation, high visual clarity, no irrelevant objects.",
+      "aspectRatio": "16:9",
+      "imageUrl": "/run-assets/run_1788705472717_bybmev/stage5/scene%203.jpg",
+      "isGenerating": false,
+      "modelUsed": "local-file",
+      "sourceFileName": "scene 3.jpg"
+    },
+    "scene-4": {
+      "sceneId": "scene-4",
+      "prompt": "Educational scene about Metallic Bonding. Main subject: A 3D grid lattice of cheerful copper atom cores suspended in a flowing sea of electrons. Action/state: Positive metal ions remaining fixed in grid array positions while blue valence electrons drift freely throughout the space. Environment: Nanoscale metallic realm with glowing energy currents. Composition: Wide dynamic perspective looking diagonally across the structured metallic lattice array. Educational visualization: Glowing fluid particle field representing the Sea of Electrons with small directional motion arrows surrounding positive cation plus symbols (+). Visual style: 2D Vector / Pixar Hybrid. Clear subject hierarchy, accurate educational representation, high visual clarity, no irrelevant objects.",
+      "aspectRatio": "16:9",
+      "imageUrl": "/run-assets/run_1788705472717_bybmev/stage5/scene%204.jpg",
+      "isGenerating": false,
+      "modelUsed": "local-file",
+      "sourceFileName": "scene 4.jpg"
+    },
+    "scene-5": {
+      "sceneId": "scene-5",
+      "prompt": "Educational scene about Chemical Structures constructing real-world matter. Main subject: Cubic salt crystals representing ionic bonds, pure water droplets representing covalent bonds, and shiny copper wires representing metallic bonds. Action/state: Macroscopic real-world materials shown alongside floating atomic bond structural diagrams. Environment: Bright futuristic science laboratory environment. Composition: Panoramic arrangement displaying salt, water droplets, and copper wire with connecting holographic atomic diagrams above each object. Educational visualization: Structural lines connecting Ionic Bond to Salt, Covalent Bond to Water, and Metallic Bond to Copper Wire. Visual style: 2D Vector / Pixar Hybrid. Clear subject hierarchy, accurate educational representation, high visual clarity, no irrelevant objects.",
+      "aspectRatio": "16:9",
+      "imageUrl": "/run-assets/run_1788705472717_bybmev/stage5/scene%205.jpg",
+      "isGenerating": false,
+      "modelUsed": "local-file",
+      "sourceFileName": "scene 5.jpg"
+    }
+  },
+  "globalAspectRatio": "16:9"
+}

@@ -347,9 +347,19 @@ export async function loadDemoSampleOutput<T>(presetId: string | undefined, stag
   const savedPresetId = presetId || 'photosynthesis';
   if (!['photosynthesis', 'chemical-bonding'].includes(savedPresetId)) return sample;
 
-  const response = await fetch(`/api/demo-sample/${savedPresetId}`);
-  if (!response.ok) throw new Error(`Unable to load the saved ${savedPresetId === 'chemical-bonding' ? 'Chemical Bonding' : 'Photosynthesis'} sample output.`);
-  const project = await response.json() as LocalSavedSample;
+  let project: LocalSavedSample;
+  try {
+    const response = await fetch(`/api/demo-sample/${savedPresetId}`);
+    if (!response.ok) throw new Error(`Saved sample API returned ${response.status}.`);
+    project = await response.json() as LocalSavedSample;
+  } catch (apiError) {
+    // Chemical Bonding is also bundled under public/ so local previews and cloud
+    // deployments can replay it even when serverless API routes are unavailable.
+    if (savedPresetId !== 'chemical-bonding') throw apiError;
+    const staticResponse = await fetch('/sample-data/chemical-bonding.json');
+    if (!staticResponse.ok) throw new Error('Unable to load the saved Chemical Bonding sample output.');
+    project = await staticResponse.json() as LocalSavedSample;
+  }
   const output = stage === 'stage1' ? project.stage1?.parsedOutput
     : stage === 'stage2' ? project.stage2 && { ...project.stage2, selectedModel }
     : stage === 'stage3' ? project.stage3 && { ...project.stage3, selectedModel }
